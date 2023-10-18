@@ -1,0 +1,19 @@
+.app {
+  display: grid;
+  place-items: center;
+  background-color: #dadbd3;
+  /* min-width: 200px; */
+  height: 100vh;
+  /* position:fixed; */
+  flex: 1;
+}
+
+.app__body {
+  display: flex;
+  /* position: absolute; */
+  background-color: #ededed;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.7);
+  /* margin-top: -50px; */
+}
